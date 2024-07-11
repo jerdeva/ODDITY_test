@@ -1,4 +1,3 @@
 document.getElementById("luckyBtn").addEventListener("click", function () {
-  document.querySelector(".logo").src =
-    "https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled";
+  document.querySelector(".logo").src = "./img/5fd531dca6427c7_upscaled.jpeg";
 });
