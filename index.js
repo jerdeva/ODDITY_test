@@ -1,3 +1,4 @@
-document.getElementById("luckyBtn").addEventListener("click", function () {
-  document.querySelector(".logo").src = "./img/5fd531dca6427c7_upscaled.jpeg";
+document.getElementById("luckyBtn").addEventListener("click", function (event) {
+  event.preventDefault();
+  document.getElementById("logo").src = "./img/odditytech_logo.jpeg";
 });
